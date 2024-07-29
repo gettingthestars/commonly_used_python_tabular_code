@@ -10,3 +10,5 @@ df=pd.read_csv("tumor_cells.csv",header=None) # tumor_cells.csv is an example fi
 
 pd.set_option('display.max_columns', 10) # show 10 columns
 pd.set_option('display.max_columns', None) # show all columns
+pd.set_option('display.max_rows', 10) # show 10 rows
+pd.set_option('display.max_rows', None) # show all rows
